@@ -1,0 +1,17 @@
+{
+  "name": "11ty-object-pagination",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rm -rf www",
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Peter deHaan <peter@deseloper.com>",
+  "license": "MPL-2.0",
+  "description": "",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}

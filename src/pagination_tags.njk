@@ -1,0 +1,11 @@
+---
+# see ./pagination_tags.11tydata.js
+---
+
+<h1>Tag={{ tag }}</h1>
+
+<ul>
+{%- for post in collections[tag] %}
+  <li><a href="{{ post.url | url }}" data-tags="{{ post.data.tags | join(',') }}">{{ post.data.title }}</a></li>
+{%- endfor %}
+</ul>
